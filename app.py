@@ -8,5 +8,5 @@ class caluculator():
         return self.a-self.b
     def multiplication(self):
         return self.a*self.b
-obj=caluculator(a=20,b=20)
-print(f"addition of a and b are:{obj.addition()}")
+    def divison(self):
+        return self.a/self.b
